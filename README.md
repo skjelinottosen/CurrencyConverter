@@ -1,5 +1,5 @@
 # CurrencyConverter
-CurrencyConverter is project to learn more about React.js and fecting data from an API.
+CurrencyConverter is project to learn more about React.js and fetching data from an API.
 
 The project uses following techniques:
 
