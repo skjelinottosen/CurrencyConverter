@@ -1,0 +1,355 @@
+/* ---------------Mobile  -------------------------------------------------------------------*/
+
+/* Extra small devices (phones, 700px and down) */
+
+@media only screen and (max-width: 700px) and (orientation: portrait) {
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: calc(1em + 1vw);
+    }
+    body {
+        margin: 0rem;
+    }
+    #mastergrid {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0rem auto;
+        grid-template-areas: "header" "main";
+        background-color: beige;
+    }
+    .header {
+        grid-area: header;
+    }
+    .main {
+        width: 100%;
+        height: 26vh;
+        grid-area: main;
+        margin-top: 19.8rem;
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+    .react-clock {
+        margin: 0 auto;
+        margin-top: 1.4rem;
+        width: 16rem !important;
+        height: 16rem !important;
+    }
+    .react-clock__face {
+        border: none !important;
+        background-color: beige;
+    }
+    .react-clock__second-hand__body {
+        background-color: red !important;
+    }
+    .react-clock__hour-mark__body {
+        width: 3px !important;
+    }
+    .react-clock__minute-mark__body {
+        width: 1px !important;
+    }
+    h1 {
+        font-family: sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 1.14rem;
+        font-weight: 400;
+        color: black;
+        display: block;
+        text-align: center;
+        margin: 0rem;
+    }
+    h2 {
+        font-family: sans-serif;
+        font-size: 0.6rem;
+        margin-bottom: 0.3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.13rem;
+        text-align: center;
+    }
+    h3 {
+        margin-top: 0.0rem;
+        margin-bottom: 0.4rem;
+        font-family: sans-serif;
+        font-size: 0.3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+    h4 {
+        margin-bottom: 0rem;
+        font-family: sans-serif;
+        font-size: 0.4rem;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        text-align: center;
+    }
+    p {
+        font-family: "Circular", Helvetica, Arial;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+        font-size: 1.4rem;
+        align-content: center;
+    }
+    .latest-update-time {
+        width: 100%;
+        display: flex;
+        font-family: "Circular", Helvetica, Arial;
+        letter-spacing: 0.1rem;
+        font-weight: 500;
+        margin-bottom: 0rem;
+        display: block;
+        text-align: center;
+        padding-top: 0.2rem;
+        margin-top: 0rem;
+        font-size: 0.94rem;
+    }
+    .input-fields {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0.8rem;
+    }
+    .a-input {
+        width: 100%;
+        text-indent: 0.28rem;
+        font-size: 1.4rem;
+        line-height: 1rem;
+        background: white;
+        color: black;
+        border-width: 0px;
+        padding: 0.5rem;
+        margin-bottom: 0.4rem;
+    }
+    .a-label {
+        width: 100%;
+        font-weight: 500;
+        font-size: 1.12rem;
+        color: black;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .a-select {
+        width: 100%;
+        font-family: 'Circular', Helvetica, Arial, sans-serif;
+        font-size: 1.4rem;
+        font-weight: 100;
+        text-indent: 0.28rem;
+        padding: 0.3rem;
+        text-align: center;
+        border: none;
+        margin-bottom: 0.5rem;
+    }
+    .btn-switch {
+        width: 100%;
+        background-color: orange;
+        border: none;
+        padding-top: 0.3rem;
+        color: white;
+        font-size: 1.6rem;
+    }
+    .btn-switch:hover {
+        background-color: #6a7d8e;
+        cursor: pointer;
+    }
+    .calculated-rate-output {
+        margin-top: 0.5rem;
+        font-size: 1.4rem;
+    }
+    #equals {
+        width: 100%;
+        font-size: 1rem;
+        text-indent: 0.3rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        display: block;
+        
+    }
+}
+
+/*Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: calc(1em + 1vw);
+    }
+    body {
+        margin: 0rem;
+    }
+    #mastergrid {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0rem auto;
+        grid-template-areas: "header" "main";
+        background-color: beige;
+    }
+    .header {
+        grid-area: header;
+    }
+    .main {
+        width: 52%;
+        height: 26vh;
+        grid-area: main;
+        margin-left: 3rem;
+        margin-top: 9.4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .react-clock {
+        float: right;
+        margin-right: 3rem;
+        margin-top: 2.0rem;
+        width: 15.4rem !important;
+        height: 15.4rem !important;
+    }
+    .react-clock__face {
+        border: none !important;
+        background-color: beige;
+    }
+    .react-clock__second-hand__body {
+        background-color: orangered !important;
+    }
+    .react-clock__hour-mark__body {
+        width: 2.6px !important;
+        height: 25px !important;
+    }
+    .react-clock__minute-mark__body {
+        width: 1.2px !important;
+        height: 12px !important;
+    }
+    .header-exchange-rates {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 0.1rem;
+    }
+    h1 {
+        margin-bottom: 0.0rem;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 0.5rem;
+        font-weight: 400;
+        color: black;
+        width: 50%;
+        margin-top: 0rem;
+    }
+    h2 {
+        font-family: sans-serif;
+        font-size: 0.6rem;
+        margin-bottom: 0.3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.13rem;
+        text-align: center;
+    }
+    h3 {
+        margin-top: 0.0rem;
+        margin-bottom: 0.4rem;
+        font-family: sans-serif;
+        font-size: 0.3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+    h4 {
+        margin-bottom: 0rem;
+        font-family: sans-serif;
+        font-size: 0.4rem;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        text-align: center;
+    }
+    p {
+        font-family: "Circular", Helvetica, Arial;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+        font-size: 0.6rem;
+        display: block;
+    }
+    .latest-update-time {
+        width: 50%;
+        display: flex;
+        font-family: "Circular", Helvetica, Arial;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+        margin-bottom: 0rem;
+        display: block;
+        text-align: right;
+        padding-top: 0.2rem;
+        margin-top: 0rem;
+        font-size: 0.42rem;
+    }
+    .input-fields {
+        background-color: #6a7d8e;
+        width: 100%;
+        display: flex;
+    }
+    .a-input {
+        width: 52%;
+        text-indent: 0.28rem;
+        font-size: 0.6rem;
+        line-height: 1rem;
+        background: white;
+        color: black;
+        border-width: 0px;
+        margin-right: 0.2rem;
+    }
+    .a-input:hover {
+        cursor: pointer;
+    }
+    .a-label {
+        padding-top: 0.3rem;
+        width: 22%;
+        font-weight: 700;
+        font-size: 0.42rem;
+        color: white;
+        text-align: center;
+    }
+    .a-select {
+        font-family: 'Circular', Helvetica, Arial, sans-serif;
+        font-size: 0.6rem;
+        font-weight: 100;
+        text-indent: 0.28rem;
+        padding: 0.0rem;
+        width: 20%;
+        text-align: center;
+        border: none;
+    }
+    .a-select:hover {
+        cursor: pointer;
+    }
+    .btn-switch {
+        background-color: orange;
+        border: none;
+        padding-top: 0.2rem;
+        color: white;
+        font-size: 0.69rem;
+        width: 18%
+    }
+    .btn-switch:hover {
+        background-color: #6a7d8e;
+        cursor: pointer;
+    }
+    .calculated-rate-output {
+        margin-top: 0.5rem;
+        text-align: right;
+        font-size: 0.6rem;
+    }
+    #equals {
+        font-size: 0.5rem;
+        font-weight: 400;
+        color: #6a7d8e;
+    }
+}
