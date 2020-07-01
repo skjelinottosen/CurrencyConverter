@@ -3,7 +3,7 @@ CurrencyConverter is project to learn more about React.js and fetching data from
 
 The project uses following techniques:
 
-Javascript
+JavaScript
 * Using API (https://fixer.io/)
 * Importing frameworks such as Fluent UI, React Spinners and React-Clock.
 
