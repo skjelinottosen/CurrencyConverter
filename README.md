@@ -12,13 +12,13 @@ CSS
 
 
 ## Desktop
+![](/Application_Shots/Desktop_Data.png)
 
 ### Loading data
 ![](Application_Shots/Desktop_Loading.png)
 
 ### Using data
 ![](/Application_Shots/Desktop_Data_Select_Currency.png)
-![](/Application_Shots/Desktop_Data.png)
 
 
 ## Mobile
