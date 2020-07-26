@@ -55,7 +55,7 @@ class CurrencyConverter extends React.Component {
     async getRates(props) {
         const apiPath = 'http://data.fixer.io/api/'
         const endpoint = 'latest?';
-        const base = props
+        const base = props;
         const access_key = '<API KEY>';
         const fullPath = apiPath + endpoint + 'access_key=' + access_key + '&base=' + base;
         console.log(fullPath);
