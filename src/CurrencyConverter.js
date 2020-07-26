@@ -68,7 +68,7 @@ class CurrencyConverter extends React.Component {
             const selectedCurrency = { ...this.state.selectedCurrency };
             const latestUpdateTime = { ...this.state.latestUpdateTime };
 
-            //Unix time gives timpestamp in seconds so we convert to  millis here.
+            //Converts Unix timestamp from seconds to milliseconds.
             const timestamp = new Date(data.timestamp * 1000);
             const timestampFormatted = new Intl.DateTimeFormat('UTC', {
                  year: 'numeric', month: '2-digit', day: '2-digit', 
