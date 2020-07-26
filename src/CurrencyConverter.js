@@ -11,6 +11,7 @@ const spinnerCSS = `
   width:2rem;
   height:2rem;
 `;
+
 class CurrencyConverter extends React.Component {
     constructor() {
         super();
