@@ -1,14 +1,8 @@
 # CurrencyConverter
-CurrencyConverter is project to learn more about React.js and fetching data from an API.
+CurrencyConverter is project written in React.
 
-The project uses following techniques:
-
-JavaScript
 * Using API (https://fixer.io/)
-* Importing frameworks such as Fluent UI, React Spinners and React-Clock.
-
-CSS
-* CSS Grid Layout
+* Using Fluent UI, React Spinners, React-Clock and CSS Grid Layout.
 
 
 ## Desktop
